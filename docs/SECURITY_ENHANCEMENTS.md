@@ -1,6 +1,6 @@
 # Opções de Implementações e Melhorias de Segurança
 
-Este documento apresenta opções de implementações adicionais e melhorias de segurança que podem ser adicionadas ao SecureOS Kernel.
+Este documento apresenta opções de implementações adicionais e melhorias de segurança que podem ser adicionadas ao LainKernel.
 
 ---
 

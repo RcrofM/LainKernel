@@ -298,7 +298,7 @@ vga_writestring("root");
 vga_set_color(VGA_COLOR_WHITE, VGA_COLOR_BLACK);
 vga_writestring("@");
 vga_set_color(VGA_COLOR_LIGHT_CYAN, VGA_COLOR_BLACK);
-vga_writestring("secureos");
+vga_writestring("lainkernel");
 vga_set_color(VGA_COLOR_WHITE, VGA_COLOR_BLACK);
 vga_writestring(":~$ ");
 ```
@@ -385,12 +385,12 @@ else if (strcmp(cmd, "matrix") == 0) {
 
 ### 2. ASCII Art no Boot
 ```
-   _____                          ____  _____ 
-  / ____|                        / __ \|  __ \
- | (___   ___  ___ _   _ _ __ __| |  | | |__) |
-  \___ \ / _ \/ __| | | | '__/ _ \ |  | |  _  / 
-  ____) |  __/ (__| |_| | | |  __/ |__| | | \ \ 
- |_____/ \___|\___|\__,_|_|  \___|\____/|_|  \_\
+   _           _       _  __                     _ 
+  | |         (_)     | |/ /                    | |
+  | |     __ _ _ _ __ | ' / ___ _ __ _ __   ___| |
+  | |    / _` | | '_ \|  < / _ \ '__| '_ \ / _ \ |
+  | |___| (_| | | | | | . \  __/ |  | | | |  __/ |
+  |______\__,_|_|_| |_|_|\_\___|_|  |_| |_|\___|_|
 ```
 
 ### 3. Jogo Simples

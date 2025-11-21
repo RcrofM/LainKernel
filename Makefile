@@ -45,7 +45,7 @@ C_OBJECTS = $(BUILD_DIR)/kernel/kernel.o \
 OBJECTS = $(ASM_OBJECTS) $(C_OBJECTS)
 
 KERNEL = $(BUILD_DIR)/kernel.bin
-ISO = kernel.iso
+ISO = lainkernel.iso
 
 .PHONY: all clean run dirs
 

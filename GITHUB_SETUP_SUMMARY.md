@@ -59,7 +59,7 @@ O script vai:
 
 #### 4️⃣ Criar repositório no GitHub
 - [ ] Acessar: https://github.com/new
-- [ ] Nome sugerido: `secureos-kernel`
+- [ ] Nome sugerido: `lain-kernel`
 - [ ] Descrição: "Educational x86 kernel with security features"
 - [ ] Escolher: **Public** (recomendado para portfólio)
 - [ ] ❌ **NÃO** marcar "Initialize with README"
@@ -67,7 +67,7 @@ O script vai:
 
 #### 5️⃣ Conectar e enviar
 ```bash
-git remote add origin https://github.com/SEU-USUARIO/secureos-kernel.git
+git remote add origin https://github.com/SEU-USUARIO/lain-kernel.git
 git branch -M main
 git push -u origin main
 ```

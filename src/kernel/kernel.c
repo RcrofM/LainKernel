@@ -75,7 +75,7 @@ void print_welcome(void) {
     vga_set_color(VGA_COLOR_LIGHT_CYAN, VGA_COLOR_BLACK);
     vga_writestring("================================================================================\n");
     vga_set_color(VGA_COLOR_LIGHT_GREEN, VGA_COLOR_BLACK);
-    vga_writestring("                          SecureOS Kernel v1.0\n");
+    vga_writestring("                          LainKernel v1.0\n");
     vga_set_color(VGA_COLOR_LIGHT_CYAN, VGA_COLOR_BLACK);
     vga_writestring("================================================================================\n\n");
     
@@ -111,7 +111,7 @@ void shell_command(const char* cmd) {
         vga_set_color(VGA_COLOR_LIGHT_CYAN, VGA_COLOR_BLACK);
         vga_writestring("\nSystem Information:\n");
         vga_set_color(VGA_COLOR_LIGHT_GREY, VGA_COLOR_BLACK);
-        vga_writestring("  Kernel: SecureOS v1.0\n");
+        vga_writestring("  Kernel: LainKernel v1.0\n");
         vga_writestring("  Architecture: x86 (32-bit)\n");
         vga_writestring("  Memory Protection: Enabled\n");
         vga_writestring("  Paging: Enabled\n");

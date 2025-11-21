@@ -1,4 +1,4 @@
-# SecureOS Kernel
+# LainKernel
 
 A basic x86 kernel written in C with comprehensive security features, designed for educational purposes and demonstrating fundamental OS concepts.
 
@@ -117,7 +117,7 @@ qemu-system-i386 -cdrom kernel.iso
 
 ## Usage
 
-Once booted, you'll see the SecureOS welcome screen. The kernel provides an interactive shell with the following commands:
+Once booted, you'll see the LainKernel welcome screen. The kernel provides an interactive shell with the following commands:
 
 - `help` - Display available commands
 - `clear` - Clear the screen
@@ -147,7 +147,7 @@ All tests passed!
 
 kernel> info
 System Information:
-  Kernel: SecureOS v1.0
+  Kernel: LainKernel v1.0
   Architecture: x86 (32-bit)
   Memory Protection: Enabled
   Paging: Enabled
@@ -286,4 +286,4 @@ Built with reference to various OS development tutorials and the OSDev community
 
 ---
 
-**SecureOS Kernel v1.0** - A demonstration of fundamental operating system concepts with security in mind.
+**LainKernel v1.0** - A demonstration of fundamental operating system concepts with security in mind.

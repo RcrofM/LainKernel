@@ -1,4 +1,4 @@
-# SecureOS Kernel
+# LainKernel
 
 ![Language](https://img.shields.io/badge/language-C-blue.svg)
 ![Architecture](https://img.shields.io/badge/arch-x86-orange.svg)
