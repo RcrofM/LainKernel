@@ -1,0 +1,47 @@
+# Arquivos compilados
+*.o
+*.obj
+*.elf
+*.bin
+*.iso
+*.img
+
+# Arquivos de build
+build/
+bin/
+obj/
+*.out
+
+# Arquivos de debug
+*.map
+*.sym
+*.lst
+
+# Arquivos de editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Arquivos do sistema
+Thumbs.db
+desktop.ini
+
+# Dependências
+*.d
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Arquivos específicos do projeto (se houver)
+# kernel.bin
+# bootloader.bin
