@@ -74,7 +74,7 @@ Write-Host ""
 $commit = Read-Host "Fazer commit? (s/n)"
 
 if ($commit -eq "s" -or $commit -eq "S") {
-    git commit -m "Initial commit: SecureOS Kernel with modular architecture"
+    git commit -m "Initial commit: LainKernel with modular architecture"
     Write-Host "OK Commit realizado!" -ForegroundColor Green
 }
 
@@ -84,7 +84,7 @@ Write-Host ""
 Write-Host "1. Crie um repositorio no GitHub:" -ForegroundColor Yellow
 Write-Host "   https://github.com/new" -ForegroundColor Cyan
 Write-Host ""
-Write-Host "2. Configure o nome do repositorio (exemplo: 'secureos-kernel')" -ForegroundColor Yellow
+Write-Host "2. Configure o nome do repositorio (exemplo: 'lain-kernel')" -ForegroundColor Yellow
 Write-Host ""
 Write-Host "3. Escolha se quer publico ou privado" -ForegroundColor Yellow
 Write-Host ""
@@ -98,7 +98,7 @@ $username = Read-Host "Digite seu username do GitHub (ou pressione Enter para pu
 if ($username) {
     Write-Host ""
     Write-Host "Execute estes comandos:" -ForegroundColor Green
-    Write-Host "  git remote add origin https://github.com/$username/secureos-kernel.git" -ForegroundColor Cyan
+    Write-Host "  git remote add origin https://github.com/$username/lain-kernel.git" -ForegroundColor Cyan
     Write-Host "  git branch -M main" -ForegroundColor Cyan
     Write-Host "  git push -u origin main" -ForegroundColor Cyan
     Write-Host ""
@@ -106,9 +106,9 @@ if ($username) {
     $addRemote = Read-Host "Adicionar remote agora? (s/n)"
     
     if ($addRemote -eq "s" -or $addRemote -eq "S") {
-        $repoName = Read-Host "Nome do repositorio no GitHub (padrao: secureos-kernel)"
+        $repoName = Read-Host "Nome do repositorio no GitHub (padrao: lain-kernel)"
         if (-not $repoName) {
-            $repoName = "secureos-kernel"
+            $repoName = "lain-kernel"
         }
         
         $remoteExists = git remote get-url origin 2>$null
